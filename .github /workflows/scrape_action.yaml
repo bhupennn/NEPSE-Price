@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '15 11 * * *' # 16:20am UTC => 10:05pm Nepal Time
+    - cron: '20 16 * * *'  # Runs at 16:20 UTC (10:05 PM NPT)
 
 jobs:
 
